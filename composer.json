@@ -1,0 +1,39 @@
+{
+  "name": "veem/sdk",
+  "description": "Veem PHP SDK",
+  "keywords": [
+    "veem",
+    "api",
+    "sdk",
+    "global payment processing"
+  ],
+  "authors": [
+      {
+          "name": "Veem",
+          "email": "devsupport@veem.com",
+          "homepage": "https://www.veem.com",
+          "role": "Developer"
+      }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Veem\\" : "lib/Veem/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Veem\\": "lib/Veem/"
+    }
+  },
+  "require-dev": {
+    "php": ">=7.1.0",
+    "ext-json": "*",
+    "phpunit/phpunit": "^8.3.5"
+  }
+}
